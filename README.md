@@ -9,13 +9,11 @@ I tried it and it worked. It may not work in all situations for a variety of rea
 ### How do I use it?
 Here are the exposed functions:
 
-```createDesktopShortcut(exePath, shortcutName, cb)```
+    createDesktopShortcut(exePath, shortcutName, cb)
+    createShortcutInSpecialFolder(specialFolderName, exePath, shortcutName, cb)
+    getSpecialFolder(name, cb)
 
-```createShortcutInSpecialFolder(specialFolderName, exePath, shortcutName, cb)```
-
-```getSpecialFolder(name, cb)```
-
-All exposed functions return a Promise AND take a callback, use whichever method to continue code execution. The callback gets ```(error, fullShortcutPath)```.
+All exposed functions return a Promise AND take a callback, use whichever method you want to continue code execution. The callback gets (error, fullShortcutPath).
 
 ## Usage
 ```js
