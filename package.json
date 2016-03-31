@@ -1,0 +1,19 @@
+{
+  "name": "windows-shortcut-vbs",
+  "version": "1.0.0",
+  "description": "Creates Windows shortcuts using CScript.exe and temporary VBS files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bsharper/windows-shortcut-vbs"
+  },
+  "author": "Brian Harper <bharper@gmail.com> (https://github.com/bsharper/)",
+  "license": "ISC",
+  "dependencies": {
+    "prettyjson": "^1.1.3",
+    "tmp": "0.0.28"
+  }
+}
