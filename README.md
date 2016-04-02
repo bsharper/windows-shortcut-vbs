@@ -1,5 +1,5 @@
 # windows-shortcut-vbs
-This is a really simple package to create Windows shortcuts. It uses VBScript snippets from [this comment (5th from top, user jorangreef)](https://github.com/atom/electron/issues/4414) to generate a .lnk shortcut. There is no native code, and the only hard dependency is [tmp](https://www.npmjs.com/package/tmp). I am using [prettyjson](https://www.npmjs.com/package/prettyjson) for nice trace output, but that could be removed pretty easily.
+This is a really simple package to create Windows shortcuts. It uses VBScript snippets from [this comment from user jorangreef](https://github.com/atom/electron/issues/4414#issuecomment-181281228) to generate a .lnk shortcut. There is no native code, and the only hard dependency is [tmp](https://www.npmjs.com/package/tmp). I am using [prettyjson](https://www.npmjs.com/package/prettyjson) for nice trace output, but that could be removed pretty easily.
 
 Scripts are created as needed as temporary files and removed after execution.
 
